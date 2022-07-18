@@ -3,7 +3,7 @@ import React from "react";
 function Post (props) {
 
   const [clique, setClique] = React.useState(false);
-  console.log(clique);
+  
   return (
     <div class="post borda">
     <div class="post-title">
